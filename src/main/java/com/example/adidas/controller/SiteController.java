@@ -66,10 +66,10 @@ public class SiteController {
         return carRepository.findAll();
     }
 
-    @RequestMapping(path = "/")
+    @RequestMapping(value = {"/","/myindex"})
     public String index(Model model) {
         model.addAttribute("carslist", carRepository.findAll());
-        return "tables";
+        return "myindex";
     }
 }
 
