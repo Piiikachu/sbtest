@@ -11466,7 +11466,8 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+            // "sInfo":Showing _START_ to _END_ of _TOTAL_ entries
+			"sInfo": "显示 _START_ 到 _END_ 共计 _TOTAL_ 数据记录",
 	
 	
 			/**
@@ -11487,8 +11488,8 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
-	
+			// "sInfoEmpty": "Showing 0 to 0 of 0 entries",
+            "sInfoEmpty": "显示 0 条记录",
 	
 			/**
 			 * When a user filters the information in a table, this string is appended
@@ -11627,8 +11628,8 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
-	
+			// "sLengthMenu": "Show _MENU_ entries",
+            "sLengthMenu": "显示 _MENU_ 数据记录",
 	
 			/**
 			 * When using Ajax sourced data and during the first draw when DataTables is

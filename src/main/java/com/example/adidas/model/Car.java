@@ -20,12 +20,12 @@ public class Car {
         this.ID = ID;
     }
 
-    public String getLisence() {
-        return lisence;
+    public String getLicense() {
+        return license;
     }
 
-    public void setLisence(String lisence) {
-        this.lisence = lisence;
+    public void setLicense(String License) {
+        this.license = License;
     }
 
     public Date getDatetime() {
@@ -60,7 +60,7 @@ public class Car {
         this.PM = PM;
     }
 
-    String lisence;
+    String license;
     Date datetime;
     double HC;
     double NOx;

@@ -50,7 +50,7 @@ public class SiteController {
     public String addone(Model model) {
         Car c = new Car();
         c.setDatetime(new Date());
-        c.setLisence("jq22134");
+        c.setLicense("jq22134");
         c.setHC(0.8);
         c.setNOx(99);
         c.setPM(88);
